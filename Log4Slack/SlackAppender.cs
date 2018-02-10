@@ -104,7 +104,7 @@ namespace Log4Slack {
                 if (mapping != null)
                 {
                     var color = Color.FromName(mapping.backColor);
-                    var hex = color.IsKnownColor ? String.Format("#{0:X2}{1:X2}{2:X2}", color.R, color.G, color.B) : mapping.backColor;
+                    var hex = color.IsNamedColor ? String.Format("#{0:X2}{1:X2}{2:X2}", color.R, color.G, color.B) : mapping.backColor;
                     theAttachment.Color = !string.IsNullOrEmpty(hex) ? hex : theAttachment.Color;
                 }
 

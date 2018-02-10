@@ -1,4 +1,4 @@
-Log4Slack
+Log4Slack modified to target .Net Standard and .Net Framework
 =========
 
 Simple, asynchronous [Slack](https://slack.com/) log4net appender. Grab the NuGet package [here](https://www.nuget.org/packages/Log4Slack/).
