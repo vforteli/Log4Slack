@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net4</TargetFrameworks>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Jonathan Freeland</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Simple, asynchronous Slack log4net appender.</Description>
+    <Copyright>Copyright © 2015 Jonathan Freeland</Copyright>
+    <PackageProjectUrl>https://github.com/jonfreeland/Log4Slack</PackageProjectUrl>
+    <PackageTags>slack log4net appender</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageId>Log4Slack</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
